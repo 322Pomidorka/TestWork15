@@ -1,0 +1,118 @@
+# Compiled source #
+#####################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files directly into the project root
+# If you have to use it inside a folder, adjust the following pattern
+!/packages/
+/packages/*
+/packages/**/*
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.bak
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Python #
+##########
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+sdist/
+wheels/
+venv/
+__pycache__/
+*.manifest
+*.spec
+*.libspec
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.swp
+*~
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Distribution / packaging
+.Python
+env/
+ENV/
+*.egg
+*.pth
+.cache
+*.manifest
+*.spec
+dist/
+build/
+wheels/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.whl
+Share/
+/site-packages/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+#  Usually these files are written into a dist folder.
+#  Remove dist from the Distribution section if you want to distribute the results
+#  from PyInstaller.
+/dist/
+/build/
+*.manifest
+*.spec
+__pycache__
+
+
+# JetBrains IDE #
+################
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+
+# Secrets #
+##########
+secrets.ini
+*.key
+*.pem
+credentials.json
+
